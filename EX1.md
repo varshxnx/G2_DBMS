@@ -21,42 +21,46 @@ RENAME: This is used to rename an object existing in the database.
 ## Query:
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
-### SQL QUERY: 
+### SQL QUERY:  
 ```
-create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
+create table studentss(rollno int,name varchar(20),age int,address varchar(20),phoneno int);
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/490a6bfd-05f1-4789-8526-274d786999c9)
+![11](https://github.com/varshxnx/G2_DBMS/assets/122253525/8d13abff-7822-48db-8ac9-fc47d2aaf346)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
 ```
-alter table student add department char(30);
-
+alter table studentss ADD department varchar(30);
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/9ee913f2-a82f-4b3d-a2bb-d5f2254184d1)
+![12](https://github.com/varshxnx/G2_DBMS/assets/122253525/82a4ba24-0307-4c42-b833-9a1c35853453)
+
+
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
 ```
-drop table student;
+drop table mystudent;
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/fbbd4d76-7f7f-4a96-876d-ea3f7688a81f)
+![13](https://github.com/varshxnx/G2_DBMS/assets/122253525/f1973af5-a3aa-4ff1-937a-c82782b03704)
+
 
 
 ### 4) Delete the student table using truncate keyword
 ### SQL QUERY: 
 ```
-truncate table student;
+truncate table mystudent;
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/a588479f-0b33-4e5a-88cd-e8b2e2069a77)
+![14](https://github.com/varshxnx/G2_DBMS/assets/122253525/53ece79a-e8e1-4b01-8180-ed627069ddb3)
+
 
 ### 5) Rename the student table to mystudent
 ### SQL QUERY: 
@@ -65,7 +69,8 @@ alter table student rename to mystudent;
 
 ```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/0c723764-5e0e-49ce-927b-b1fdd0a03f66)
+![15](https://github.com/varshxnx/G2_DBMS/assets/122253525/ff08cde9-1bdc-4450-bb63-9029a22088f3)
+
 
 ### RESULT:
 To create a student database and execute DDL queries using SQL is executed successfully.
